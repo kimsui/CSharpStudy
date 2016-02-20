@@ -49,18 +49,18 @@ namespace _03_StringBuilder
             #endregion
 
             #region AppendFormat()
-            int intvar = 123;
-            StringBuilder sb1 = new StringBuilder();
-            sb1.AppendFormat("여러분이 정의한 숫자는 {0} 입니다. ", intvar);
+            //int intvar = 123;
+            //StringBuilder sb1 = new StringBuilder();
+            //sb1.AppendFormat("여러분이 정의한 숫자는 {0} 입니다. ", intvar);
 
-            float myFloat = 12345.4654f;
-            sb1.AppendFormat("{0, 10:f3}", myFloat);
+            //float myFloat = 12345.4654f;
+            //sb1.AppendFormat("{0, 10:f3}", myFloat);
 
-            string mystring = "This is your book.";
-            sb1.AppendFormat("추가한 데이터는 {0}", mystring);
+            //string mystring = "This is your book.";
+            //sb1.AppendFormat("추가한 데이터는 {0}", mystring);
 
-            Console.WriteLine(sb1.ToString());
-            Console.ReadLine();
+            //Console.WriteLine(sb1.ToString());
+            //Console.ReadLine();
 
             #endregion
         }
